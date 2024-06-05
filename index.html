@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-container">
+            <div class="navbar">
+                <div class="title">
+                    <h1>Products</h1>
+                </div>
+                <div class="cart-icon"  onclick="toggleDisplay()">
+                    <a><i class="fa-solid fa-cart-shopping"></i>
+                        <span>0</span>
+                    </a>
+                </div>
+            </div>
+            <div class="products">
+               <div class="product-content"></div>
+            </div>
+        </div>
+        <div class="right-container" id="right-container">
+            <div class="cart-container">
+                <h2 class="cart-title">Cart</h2>
+
+                <i class="fa-solid fa-xmark" id="close-cart" onclick="toggleDisplay()"></i>
+                <div class="cart-content">
+
+                    <!-- JS FUNCTIONS -->
+                </div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+
+
+                <button class="btn-buy" type="button">Buy Now</button>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- font awesome js link  -->
+    <script src="https://kit.fontawesome.com/e80e26efe5.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
